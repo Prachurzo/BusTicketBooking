@@ -224,8 +224,8 @@ li a:hover:not(.active) {
 
   <div class="tmp6" id="footer">
     Developed and Maintained by <br><br>
-    Saifuzzaman Saif <br>
-    Md Shariful Islam<br><br>
+   Md.Hasnat Hasan Prachurzo <br>
+   Atia Sultana Liman<br><br>
   </div>
 
 </div>
