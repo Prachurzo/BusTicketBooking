@@ -158,14 +158,14 @@ li a:hover:not(.active) {
 <body>
 
 <ul class="top">
-  <li><a class="active" href="home.php">Home</a></li>
-  <li><a href="bus reservationn.php">Bus Reservation</a></li>
-  <li><a href="make payment.php">Verify Payment Method</a></li>
-  <li><a href="cancel ticket.php">Cancel Ticket</a></li>
-  <li><a href="bus schedule.php">Bus Schedule</a></li>
-  <li><a href="make complain.php">Make Complain</a></li>
-  <li style="float:right"><a href="contact.php">Contact us</a></li>
-  <li style="float:right"><a href="about.php">About</a></li>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="bus reservationn.html">Bus Reservation</a></li>
+  <li><a href="make payment.html">Verify Payment Method</a></li>
+  <li><a href="cancel ticket.html">Cancel Ticket</a></li>
+  <li><a href="bus schedule.html">Bus Schedule</a></li>
+  <li><a href="make complain.html">Make Complain</a></li>
+  <li style="float:right"><a href="contact.html">Contact us</a></li>
+  <li style="float:right"><a href="about.html">About</a></li>
 </ul><br><br>
 <div style="border: 3px solid lightgrey;">
   <div style="background-color: red; font-size: 25px; text-align: center;">
