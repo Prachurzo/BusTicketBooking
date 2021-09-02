@@ -277,8 +277,8 @@ body {
 
   <div class="tmp6">
     Developed and Maintained by <br><br>
-    Saifuzzaman Saif <br>
-    Md Shariful Islam<br><br>
+   Md.Hasnat Hasan prachurzo  <br>
+   Atia Sultana Liman<br><br>
   </div>
 
 </div>
