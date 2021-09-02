@@ -431,7 +431,7 @@ $rq = mysqli_query($conn, $sq);
   <div class="tmp6">
     Developed and Maintained by <br><br>
     Md.Hasnat Hasan Prachurzo <br>
-    Md Shariful Islam<br><br>
+    Atia Sultana Liman<br><br>
   </div>
 
 </div>
