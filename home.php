@@ -105,7 +105,7 @@ li a:hover:not(.active) {
 <body>
 
 <ul class="top">
-  <li><a class="active" href="home.php" onclick="openCity(event,'London')">Home</a></li>
+  <li><a class="active" href="home.html" onclick="openCity(event,'London')">Home</a></li>
   <li><a href="bus reservationn.php" onclick="openCity(event,'London')">Bus Reservation</a></li>
   <li><a href="make payment.php">Verify Payment Method</a></li>
   <li><a href="cancel ticket.php">Cancel Ticket</a></li>
