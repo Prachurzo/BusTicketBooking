@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About us</title>
+  <title>Home</title>
 <style>
 
 .row {
@@ -44,7 +44,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: black;
+  background-color: #4CAF50;
 }
 
 .input-field3
@@ -116,24 +116,60 @@ li a:hover:not(.active) {
 </ul><br><br>
 
 
-<h1 style="text-align: center">Who we are?</h1>
-<p style="font-size: 20px">
-We started our journey in 2019 with one goal in mind- to make lives easier. As a technology first company, we develop tech-driven solutions for the everyday challenges of Bangladeshi people. The BUS_BD Super App serves as a single portal connecting local people to local businesses providing a wide range of products and services like tickets, rides, bus rentals etc. Our on-demand service platform provides all the customer care must haves- a digital marketplace, speedy logistical support and a customer support call center.
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <img src="bus.jpg.png" alt="LOGO" width="1000" height="600">
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Search your bus here</h2><br>
+    <form action="search_bus.php" text-align="center" method="post">
+  <label for="from" class="input-field3">From:</label><br>
+            <select class="input-field4" type="text"  name="from" id="from">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Mymensingh">Mymensingh</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Jessor">Jessor</option>
+            <option value="Chuadanga">Chuadanga</option>
+            <option value="Kustia">Kustia</option>
+            <option value="Rangamati">Rangamati</option>
+            <option value="Cox's Bazar">Cox's Bazar</option>
+            </select><br><br>
+  <label for="to" class="input-field3">To:</label><br>
+            <select class="input-field4" type="text"  name="to" id="to">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Mymensingh">Mymensingh</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Jessor">Jessor</option>
+            <option value="Chuadanga">Chuadanga</option>
+            <option value="Kustia">Kustia</option>
+            <option value="Rangamati">Rangamati</option>
+            <option value="Cox's Bazar">Cox's Bazar</option>
+            </select><br><br>
+  <label for="Date of Journey" class="input-field3">Date of Journey:</label><br>
+  <input type="date" class="input-field5" id="Date of Journey" name="date" required><br><br>
 
-BUS_BD is more than just a service platform, BUS_BD is a lifestyle. We empower our people by solving and simplifying their daily needs problem and let them enjoy life, the easier way.</p><br><br><br>
-
-<div style="background-color: lightgrey;"><br><br>
-
-  <h1 style="text-align: center">Leadership Team</h1><br>
-<pre><div>                                              <img src="lead11.jpg" style="width: 200px; height: 200px; border-radius: 100%">                                                 <img src="lead33.jpg" style="width: 200px; height: 200px; border-radius: 100%">
-                                                <b style="font-size: 20px">Md.Hasnat Hasan Prachurzo</b>                                       <b style="font-size: 20px">Atia Sultana Liman</b>
-                                                     <b style="font-size: 15px">Founder</b>                                                                      <b style="font-size: 15px">Co-founder</b>
+<label for="busTp" class="input-field3">Choose Bus Type:</label><br>
+  <select id="busType" name="type" class="input-field4">
+    <option value="AC">AC</option>
+    <option value="NON-AC">NON_AC</option>
+  </select>
+  <br><br><br><br>
+  <input type="Submit" value="Submit to Search Buses" class="input-field4">
+</form><br><br><br>
+  </div>
 </div>
-  
-  <br><br>
-</div>
 
-<br><br><br><hr>
+<br><hr>
 
 <div class="tmp">
 <a style="text-align: center;">
