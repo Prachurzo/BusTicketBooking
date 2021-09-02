@@ -5,7 +5,7 @@
 </head>
 <body>
 
-	<a href="home.php#footer">Link</a>
+	<a href="home.html#footer">Link</a>
 
 	<?php
 
